@@ -4,9 +4,9 @@ Wheel of Fortune - это веб-приложение, разработанно�
 
 
 ![Скриншоты](images/first.png)
-![Скриншоты](screenshots/second.png)
-![Скриншоты](screenshots/res.png)
-![Скриншоты](screenshots/mobile.png)
+![Скриншоты](images/second.png)
+![Скриншоты](images/res.png)
+![Скриншоты](images/mobile.png)
 
 ## Особенности
 
