@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url("../fonts/LuckiestGuy-Regular.ttf");
+}
+
+body {
+    color: #fff;
+    background-color: #001583;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.title {
+    font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 0 4px rgba(0, 0, 0, 0.25);
+}
+
+#root {
+    max-width: 1368px;
+    min-height: 100vh;
+    margin: 70px auto 0;
+    background: linear-gradient(#75BDFF, #020065);
+}
+
+.content {
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+}
+
+.winners-block {
+    width: 100%;
+    background: linear-gradient(#3496DF, #016CB9);
+    box-shadow: inset 1px 5px 4px 0 #1B379F;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.wheel {
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(#3496DF, #016CB9);
+    box-shadow: inset 1px 5px 4px 0 #1B379F;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.winners {
+    padding: 10px;
+}
+
+.winners-block {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.group-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 10px;
+}
+
+.group-buttons button {
+    width: 100%;
+    height: 55px;
+    border: double 0 transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: none;
+    line-height: 20px;
+    font-size: 20px;
+    color: #FAC269;
+    padding: 3px;
+    transition: .3s ease-out;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-shadow: -1px -2px #B46E00;
+    font-weight: 600;
+    background-image: linear-gradient(#588DD8, #324FA5),
+        linear-gradient(to bottom, #FFCD7E, #E18A00);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.group-buttons button:last-child {
+    box-shadow: 0 8px 0 0 #8A0000;
+    background-image: linear-gradient(#8A0000, #8A0000),
+        linear-gradient(to bottom, #FFCD7E, #E18A00);
+}
+
+.group-buttons button:last-child:hover {
+    box-shadow: none;
+    transition: .3s all;
+}
+
+.list {
+}
+
+.item {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #62B5F0, #046EBA);
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 0 rgba(16, 46, 131, 0.5);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.details h3, .time h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.avatar-block, .coins-block {
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.avatar-block h3 {
+    margin-left: 5px;
+}
+
+.avatar-block img {
+    border-radius: 50px;
+}
+
+.coins-block h3 {
+    margin-right: 5px;
+}
+
+h3[data-custom="JACKPOT"] {
+    color: #E18A00 !important;
+    text-shadow: 1px -1px rgba(225, 138, 0, 0.66);
+}

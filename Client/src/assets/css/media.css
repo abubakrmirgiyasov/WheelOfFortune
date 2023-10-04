@@ -1,0 +1,72 @@
+@media screen and (max-width: 501px) {
+    .wheel {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .avatar-block h3  {
+        font-size: 1rem;
+    }
+
+    .group-buttons {
+        width: 150px;
+    }
+
+    .group-buttons button {
+        width: 130px;
+    }
+}
+
+/*@media screen and (max-width: 500px) {*/
+/*    .content {*/
+/*        justify-content: space-around;*/
+/*    }*/
+
+/*    .wheel {*/
+/*        width: 200px;*/
+/*        height: 200px;*/
+/*    }*/
+
+/*    .group-buttons button {*/
+/*        width: 130px;*/
+/*        font-size: 20px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 336px) {*/
+/*    .time {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .details {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 360px) {*/
+/*    .group-buttons button {*/
+/*        width: 75px;*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 314px) {*/
+/*    .wheel {*/
+/*        width: 200px;*/
+/*    }*/
+
+/*    .content {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .group-buttons {*/
+/*        flex-direction: row;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    .group-buttons button {*/
+/*        width: 75px;*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/
