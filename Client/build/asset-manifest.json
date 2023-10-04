@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d6685d6.css",
+    "main.js": "/static/js/main.3d0397d5.js",
+    "static/media/LuckiestGuy-Regular.ttf": "/static/media/LuckiestGuy-Regular.fd5a8f5e455b026973fc.ttf",
+    "index.html": "/index.html",
+    "main.7d6685d6.css.map": "/static/css/main.7d6685d6.css.map",
+    "main.3d0397d5.js.map": "/static/js/main.3d0397d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d6685d6.css",
+    "static/js/main.3d0397d5.js"
+  ]
+}
